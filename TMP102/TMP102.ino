@@ -1,4 +1,3 @@
-//////////////////////////////////////////////////////////////////
 /*
 Galileo I2C example for TMP102 sensor. Based by Arduino code under the MIT License
 2014 Nov 01 Konstantin Kostyuk
