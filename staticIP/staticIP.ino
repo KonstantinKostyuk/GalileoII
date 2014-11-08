@@ -19,11 +19,8 @@ void setup()
 {
   Serial.begin(9600);
   Serial.println("Try to configure Ethernet connection");
-//  if (Ethernet.begin(mac) == 0) {
-//        Serial.println("Failed to configure Ethernet using DHCP");
-//    };
-        Serial.println("Attempting to configure Ethernet using Static IP");
-        Ethernet.begin(mac, ip);    
+  Serial.println("Attempting to configure Ethernet using Static IP");
+  Ethernet.begin(mac, ip);    
 }
 
 void loop () 
